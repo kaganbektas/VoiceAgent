@@ -1,0 +1,34 @@
+# ============ .NET Backend ============
+bin/
+obj/
+publish/
+*.user
+*.suo
+*.vs/
+appsettings.Development.json
+appsettings.Production.json
+
+# Sensitive config — API keys, JWT secret, DB password
+appsettings.json
+
+# ============ Node / React Frontend ============
+node_modules/
+dist/
+.env
+.env.local
+.env.production
+
+# ============ IDE ============
+.idea/
+.vscode/
+*.swp
+*.sln.docstates
+
+# ============ OS ============
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ Logs ============
+*.log
+logs/
